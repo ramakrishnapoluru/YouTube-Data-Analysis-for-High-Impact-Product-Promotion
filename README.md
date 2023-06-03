@@ -11,3 +11,11 @@ Furthermore, by employing a data-driven approach, we can make informed decisions
 
 This data collection comprises six months of daily trending YouTube videos, with separate files for the United States (US), Great Britain (GB), and Canada (CA). Each file contains information on up to 200 trending videos per day. 
 The dataset includes various attributes for each video, such as the title, channel title, publish time, tags, views, likes, dislikes, description, and comment count. Additionally, there is a category_id field, which varies across regions. To obtain the specific category of a video, you can refer to the associated JSON file provided for each region. 
+
+# Architechture
+
+An architecture leveraging various AWS services has been implemented. The project involves the utilization of Amazon S3, AWS Lambda, AWS Glue, AWS Athena, and QuickSight. 
+To begin, a data lake is established in Amazon S3, serving as a central repository for the project's data. Whenever a new file is uploaded to S3, AWS Lambda functions are triggered, allowing for seamless processing. These functions convert the incoming JSON files into the efficient Parquet format, ensuring data readability and optimal performance. 
+AWS Glue is employed to perform Extract, Transform, Load (ETL) operations on the data, which may be in multiple formats. This enables data harmonization and preparation for subsequent analysis and querying. The processed data is then stored and loaded back into Amazon S3, ready for further utilization. 
+For querying and analysis, AWS Athena comes into play. Athena allows for the execution of SQL queries directly on the data stored in S3. This provides a convenient and scalable approach to access and retrieve insights from the processed data. 
+Lastly, AWS QuickSight serves as the tool for visual-level analytics and dashboard creation. QuickSight enables the exploration and visualization of data, allowing for the creation of interactive and insightful dashboards that aid in data interpretation and decision-making. 
