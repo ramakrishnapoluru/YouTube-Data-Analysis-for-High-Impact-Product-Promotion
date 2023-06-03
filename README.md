@@ -7,6 +7,15 @@ To tackle this challenge, we aim to leverage historical data from the past six m
 With these insights, we can fine-tune our advertising strategy and optimize our content creation efforts. By understanding what resonates with viewers and what drives engagement, we can tailor our promotional materials to effectively capture the attention of our target audience. 
 Furthermore, by employing a data-driven approach, we can make informed decisions regarding budget allocation and ad placement on YouTube. By identifying the types of videos and channels that generate high engagement and conversions, we can allocate resources strategically to maximize the return on investment. 
 
+# Project Objectives
+
+Data Ingestion: Construct a reliable mechanism for gathering data from diverse sources.
+ETL System: Convert raw data into a standardized format through a data transformation process.
+Data Lake: Establish a centralized repository to accumulate and store data obtained from multiple origins.
+Scalability: Ensure that the system can seamlessly handle growing data volumes without compromising performance.
+Cloud Integration: Leverage cloud computing, specifically AWS, to process substantial amounts of data that surpass the limitations of local computing resources.
+Reporting: Develop a comprehensive dashboard to obtain insights and answers to the initial inquiries.
+
 # Data Collection 
 
 This data collection comprises six months of daily trending YouTube videos, with separate files for the United States (US), Great Britain (GB), and Canada (CA). Each file contains information on up to 200 trending videos per day. 
