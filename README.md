@@ -39,4 +39,4 @@ For querying and analysis, AWS Athena comes into play. Athena allows for the exe
 Lastly, AWS QuickSight serves as the tool for visual-level analytics and dashboard creation. QuickSight enables the exploration and visualization of data, allowing for the creation of interactive and insightful dashboards that aid in data interpretation and decision-making. 
 
 # Visuals in Dashboard 
-
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/e4d1187a-3156-4cc2-a947-9ed363f1571b)
